@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import { Questionare } from './Questionare ';
+
+const appStyle={
+ "color":'#AED6F1 ',
+ "font-family": "Times New Roman, Times, serif",
+ "font-weight": "bold"
+}
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+  <h1 style={appStyle}>QUIZ APP</h1>
+         
+       <Questionare/>
+           
     </div>
   );
 }

@@ -1,9 +1,16 @@
+
 .App {
   text-align: center;
+  background-color: #1C2833   ;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 40px;
+  box-shadow: 5px 10px #888888;
+  
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100vh;
   pointer-events: none;
 }
 
@@ -35,4 +42,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*answer ,js*/
+.btnAnswer{
+  background-color: #45B39D ;
+  font:30px;
+  color:white
+}
+.btnAnswer:hover{
+  background-color: #82E0AA ;
+  border:3px solid white;
+  
+ 
+}
+
+/*questions*/
+.questions{
+  color:#5DADE2 ;
+}
+
+/*correctAns*/
+.correctAns{
+  color:white;
+ 
+}
+.correctAns span{
+  color:red
+}
+
+
+
+/*incorrectAn*/
+.incorrectAns{
+  
+  color:white
+}
+
+.incorrectAns span{
+  color:red
+} 
+/*userGreeting*/
+.userGreeting{
+  color:#5DADE2
+}
+/*scoreArea*/
+.scoreArea{
+  margin-top: 20px;;
 }

@@ -1,0 +1,15 @@
+#btnhover:hover{
+    background-color: purple;
+    color: white;
+}
+#logopad{
+    padding-left: 50px;
+}
+
+li.coloractive > a.active {
+    display: block;
+    width: 100%;
+    height:100%;
+    color: white;
+    background-color: blue;
+}

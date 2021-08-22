@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.colbtn{
+  background-color: #282c34;
+  margin-top: 20px;
+}
+.panel{
+  margin-top: 200px;
 }

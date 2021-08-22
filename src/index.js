@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Alldashboard from './Alldasboard'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Alldashboard />
   </React.StrictMode>,
   document.getElementById('root')
 );

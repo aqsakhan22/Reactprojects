@@ -1,0 +1,17 @@
+.team-member{
+ background-color:#DADADA ;
+ border:2px solid #EEE10F;
+ 
+
+    
+}
+.list-inline-item{
+    margin: 10px;
+}
+.team-member img{
+   margin: 20px;
+       
+   }
+.portfolio{
+    background-color: #EEE10F ;
+}

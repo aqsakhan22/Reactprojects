@@ -1,0 +1,27 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}
+.aboutheader {
+  color: crimson;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.para span {
+  color: crimson;
+  font-weight: bold;
+}
+.para {
+  font-size: 18px;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  width: 500px;
+  background-color: wheat;
+  border-radius: 20px;
+}
